@@ -1,8 +1,13 @@
-//-----Classes-----//-> A type of function, and the properties are assigned inside a costructor() method.
+//-----Classes-----//
+/*
+A type of function, and the properties are assigned inside a constructor() method.
+A constructor is a function that does initialization of an object when the object is created.
+Arguments are passed to the constructor function when you use the new keyword.
+*/
 class Car {
     //Constructor Method
     constructor(name){
-        this.brand = name;
+        this.brand = name;//this keyword refers to the object.
     }
 
     //A Method
