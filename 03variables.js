@@ -1,4 +1,17 @@
-//Defining your variables : var, let and const.
+/* 
+Data types in JavaScript(8): Undefined, null, boolean, string, number, symbol, bigint, object. 
+*/
+
+
+//(1). Declaring your variables : var, let and const. 
+
+var myName;
+
+//Storing values in variables with an assignment operator.
+myName = "Kanja";
+
+//(2). Initializing Variables with the assignment operator.
+var myNum = 77;
 
 var cr = 7; //Has a function scope.
 /*
@@ -13,5 +26,5 @@ Scoped version of var.
 
 const cr =7;//Has a block scope.
 /*
-A variable once created, the value can never change.
+A variable once created, the value can never change. Its read-only.
 */
